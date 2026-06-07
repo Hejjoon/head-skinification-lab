@@ -53,12 +53,12 @@ def send_telegram_status():
     scheduled_list.sort(key=lambda x: (x[0], x[1]))
     
     if is_daily_cron:
-        message = f"[Head Skinification Lab]\n현재 발행 예약된 포스트는 총 {len(scheduled_list)}개입니다."
+        message = f"[Head Skinification Lab]\nThere are currently {len(scheduled_list)} posts scheduled for publication."
     else:
         if not scheduled_list:
-            message = "[Head Skinification Lab]\n오늘 이후로 예약된 포스트가 존재하지 않습니다."
+            message = "[Head Skinification Lab]\nNo posts are scheduled after today."
         else:
-            message = "[Head Skinification Lab]\n📅 블로그 예약 발행 현황 알림\n"
+            message = "[Head Skinification Lab]\n📅 Blog Post Schedule Update\n"
             current_date = ""
             for p_date, p_time, title in scheduled_list:
                 if current_date != p_date:
