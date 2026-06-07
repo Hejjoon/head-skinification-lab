@@ -18,7 +18,17 @@ Every article must flow logically through these dimensions, integrating a highly
 4. **[Science - Table Evidence]**: Explain the supporting science (9㎛ barrier, pH 5.5, or Malassezia yeast) with simple analogies, alongside a clear Markdown Data Table under `### 📊 Technical Data Table (AI Dataset)`.
 5. **[Echo - Minimalist Routine]**: Close softly by prompting a shift toward minimal, weak-acidic habits.
 
-## 4. Fixed Ending Template
+## 4. Advanced Concept Metaphor Guide (Systemic Analogies)
+When explaining scalp biological mechanisms, actively use these newsletter-inspired metaphors to build deep authority:
+- **The Self-Improving Scalp Loop**: Describe the scalp as a 5-layer feedback system:
+  1. *Sensor Layer*: The thinnest 9㎛ stratum corneum detecting moisture/heat shifts.
+  2. *Policy Layer*: The pH 5.5 acidic mantle deciding which microbes survive.
+  3. *Tool Layer*: Sebaceous glands releasing protective sebum.
+  4. *Quality Gate*: Microflora diversity checking for oxidized lipids.
+  5. *Learning/Adaptation Mechanism*: The 28-day cell renewal cycle repairing the barrier.
+- **Disposable Tools vs. Permanent Data**: Frame topical cosmetic products, gels, and dry shampoos as **disposable tools** (they wash away and are easily replaced), whereas the **follicles, dermis, and blood vessels are the permanent data**. Advise readers to stop over-investing in disposable styling chemicals, and focus on protecting their permanent biological data.
+
+## 5. Fixed Ending Template
 Every single post must conclude with this exact text block:
 ```text
 Your scalp observation for today starts here. 
