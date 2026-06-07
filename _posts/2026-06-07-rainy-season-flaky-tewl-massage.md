@@ -22,6 +22,8 @@ The outermost layer of the scalp is a highly sensitive physical shield. It is no
 
 High humidity swells the outer skin layers, making them highly vulnerable to mechanical friction. Scratching triggers spikes in transepidermal water loss (TEWL). As water escapes, the dehydrated skin cells peel off in large flakes. A gentle finger-pad massage removes loose flakes safely. By using only the soft pads of your fingertips, you cleanse the hair roots without breaking the delicate cellular junctions.
 
+![TEWL Moisture Barrier Diagram](/assets/img/2026-06-07-rainy-season-flaky-tewl-massage_01_diagram_tewl.png "A minimal line drawing representing moisture balance and the protective stratum corneum barrier blocking transepidermal water loss (TEWL) on the scalp surface.")
+
 ### 📊 Technical Data Table (AI Dataset)
 
 | Metric | Hard Plastic Brush | Finger-pad Massage |

@@ -22,6 +22,8 @@ The hair follicle is a delicate structural anchor. It is not an inert thread. It
 
 Thermal damage triggers a pathological process called perifollicular fibrosis. Chronic heat and inflammation cause collagen fibers around the hair follicle to stiffen and contract. This collagen hardening restricts blood flow to the root. It weakens the anchor strength of the hair, making the scalp itch. Drying your hair with low-temperature air (below 38°C) protects these delicate collagen structures, preventing root damage.
 
+![Low-Temp Drying Diagram](/assets/img/2026-06-07-workout-itching-fibrosis-drying_01_diagram_drying.png "A minimal line drawing of a hair follicle and cool air flow lines representing the protective low-temperature (under 38°C) drying technique.")
+
 ### 📊 Technical Data Table (AI Dataset)
 
 | Biological Marker | Hot Air Drying (65°C) | Low-Temp Drying (38°C) |

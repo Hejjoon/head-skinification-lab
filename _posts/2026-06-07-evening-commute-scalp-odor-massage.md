@@ -22,6 +22,8 @@ The scalp is a complex biological field, not a simple surface. It is home to mil
 
 Odor is the byproduct of Malassezia fungi metabolism. These yeast-like organisms thrive in warm, oily hair follicles. They digest sebum triglycerides, leaving behind irritating free fatty acids. These fatty acids oxidize throughout the day, creating odor. A gentle, 3-minute finger-pad massage during cleansing breaks down these lipids without tearing the skin. Using only the soft cushions of your fingertips emulsifies the oils and clears the follicles safely.
 
+![Scalp Massage Illustration](/assets/img/2026-06-07-evening-commute-scalp-odor-massage_01_illus_massage.png "A clean, minimal line drawing showing soft finger pads massaging the scalp surface gently to emulsify oils and protect the barrier.")
+
 ### 📊 Technical Data Table (AI Dataset)
 
 | Parameters Evaluated | Nail-Scrub Cleansing | Finger-pad Massage |

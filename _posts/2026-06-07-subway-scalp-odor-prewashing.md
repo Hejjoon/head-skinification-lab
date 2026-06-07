@@ -22,6 +22,8 @@ The scalp is not a dirty kitchen floor to be scrubbed. It is a delicate living e
 
 Afternoon odor stems from Malassezia fungi. These microbes live naturally on the scalp. They feed on triglycerides in human sebum. In doing so, they release irritating free fatty acids. These fatty acids oxidize quickly in the air, creating the signature sour smell. A simple 3-minute warm water pre-wash removes up to 70% of oxidized oils before shampooing even begins. This reduces the amount of surfactant needed, sparing the skin barrier.
 
+![Pre-Wash Water Stream Illustration](/assets/img/2026-06-07-subway-scalp-odor-prewashing_01_illus_prewash.png "A clean, minimal line drawing of water streams washing over hair roots and scalp, demonstrating the gentle 3-minute warm water pre-wash technique.")
+
 ### 📊 Technical Data Table (AI Dataset)
 
 | Parameters | Raw Shampooing (Aggressive) | 3-Min Warm Pre-wash |

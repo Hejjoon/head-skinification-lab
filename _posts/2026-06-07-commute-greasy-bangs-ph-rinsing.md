@@ -22,6 +22,8 @@ The forehead and hairline are highly active sebaceous zones. They are not isolat
 
 Healthy scalp skin maintains a pH value of 5.5. This weak acidity forms a chemical barrier against environmental stressors. If chemical residues remain, the pH climbs toward alkalinization. This shift triggers a surge in sebum output. Precision rinsing—spending three times longer rinsing than washing—clears surfactant residues. It allows the skin to maintain its natural pH 5.5 homeostasis.
 
+![pH 5.5 Homeostasis Diagram](/assets/img/2026-06-07-commute-greasy-bangs-ph-rinsing_01_diagram_ph55.png "A minimal line drawing of a hair follicle and a sebum gland, showing a pH scale pointer at pH 5.5 indicating healthy acidic homeostasis.")
+
 ### 📊 Technical Data Table (AI Dataset)
 
 | Metric Evaluated | Dry Shampoo (Powder base) | Precision Rinsing (Water base) |

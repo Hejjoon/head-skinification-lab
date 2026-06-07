@@ -22,6 +22,8 @@ The outermost protective layer of the human scalp is extremely thin. It is not a
 
 In dry winter air, this 9㎛ barrier loses moisture rapidly. When washed with plain water, the dry keratinocytes contract, causing painful post-cleansing tightness. Replacing plain purified water with active botanical plant-water—such as bamboo, cypress, or rose flower distillates—provides immediate soothing. These natural plant-waters supply essential minerals and bio-actives that lock in moisture and protect the delicate 9㎛ stratum corneum.
 
+![9㎛ Scalp Barrier Diagram](/assets/img/2026-06-07-winter-tightness-barrier-hydration_01_diagram_barrier.png "A minimal line drawing cross-section showing the thin 9㎛ stratum corneum layer of the scalp skin protected by plant-water hydration.")
+
 ### 📊 Technical Data Table (AI Dataset)
 
 | Hydration Agent | Purified Water (Standard) | Plant-water Distillates |
