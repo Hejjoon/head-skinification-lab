@@ -22,13 +22,17 @@ author_type: Person
 publisher_type: Person
 ---
 
-## 3. Daily 5-Post Time Distribution Gate
-When compiling a batch of 5 articles, automatically split the `date:` timestamps into 4-hour intervals to mimic organic user publishing and bypass global search engine spam algorithms:
-- Post 1: YYYY-MM-DD 00:00:00 +0900
-- Post 2: YYYY-MM-DD 04:00:00 +0900
-- Post 3: YYYY-MM-DD 08:00:00 +0900
-- Post 4: YYYY-MM-DD 12:00:00 +0900
-- Post 5: YYYY-MM-DD 16:00:00 +0900
+## 3. Dynamic Sequential Scheduling Gate (Max 5 Posts/Day, 4-Hour Intervals)
+When assembling new posts, the system must automatically queue them sequentially in the next available time slots to protect blog quality:
+- **Scan existing posts**: Read the `_posts` folder to check the dates and times of already scheduled posts.
+- **Find the next available slot**: The allowed daily slots are strictly:
+  - 00:00:00 +0900
+  - 04:00:00 +0900
+  - 08:00:00 +0900
+  - 12:00:00 +0900
+  - 16:00:00 +0900
+- **Sequence Assignment**: Assign the new post to the first empty slot. If all 5 slots for a day are occupied, automatically shift the new post to the `00:00:00` slot of the next calendar day.
+- **Filename alignment**: Rename the post file to match the assigned schedule date (e.g. `YYYY-MM-DD-slug.md`).
 
 ## 4. Quality Gates
 - Check 1: Delete all commercial labels. URL slugs must be 100% lowercase, hyphenated English words (e.g., `/afternoon-scalp-odor/`).
