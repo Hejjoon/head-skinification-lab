@@ -13,6 +13,15 @@ markdown: kramdown
 highlighter: rouge
 paginate: 10
 
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
 webmaster_verifications:
   google: "dGg1myRV34JLoOGpibffPj4kRHrJb81IAqzG0QgsBXc"
 
