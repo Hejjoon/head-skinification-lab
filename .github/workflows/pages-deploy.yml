@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -38,12 +38,27 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3
-          bundler-cache: false
+          bundler-cache: ${{ hashFiles('Gemfile.lock') != '' }}
 
-      - name: Install dependencies
+      - name: Generate Gemfile.lock (if missing)
+        if: ${{ hashFiles('Gemfile.lock') == '' }}
+        run: |
+          bundle lock --add-platform x86_64-linux
+
+      - name: Install dependencies (if lockfile was missing)
+        if: ${{ hashFiles('Gemfile.lock') == '' }}
         run: |
           gem install bundler
           bundle install
+
+      - name: Commit and Push Gemfile.lock
+        if: ${{ hashFiles('Gemfile.lock') == '' }}
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add Gemfile.lock
+          git commit -m "Chore: auto-generate Gemfile.lock on runner"
+          git push
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
