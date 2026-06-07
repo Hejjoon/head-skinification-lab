@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Afternoon Scalp Odor During Your Evening Commute: Malassezia Fungi and the Power of Finger-pad Massage"
 description: "Discover why afternoon scalp odor peaks during your evening commute. Learn about Malassezia fungi metabolism and how a gentle finger-pad massage restores balance."
-date: 2026-06-07 17:00:00 +0900
+date: 2026-06-08 00:00:00 +0900
 categories: [Head Bio Care, Daily Scalp Routine]
 tags: [evening-commute, scalp-odor, malassezia, finger-massage]
 author: scalp-bio-hacker-choi
@@ -22,7 +22,7 @@ The scalp is a complex biological field, not a simple surface. It is home to mil
 
 Odor is the byproduct of Malassezia fungi metabolism. These yeast-like organisms thrive in warm, oily hair follicles. They digest sebum triglycerides, leaving behind irritating free fatty acids. These fatty acids oxidize throughout the day, creating odor. A gentle, 3-minute finger-pad massage during cleansing breaks down these lipids without tearing the skin. Using only the soft cushions of your fingertips emulsifies the oils and clears the follicles safely.
 
-![Scalp Massage Illustration](/assets/img/2026-06-07-evening-commute-scalp-odor-massage_01_illus_massage.png "A clean, minimal line drawing showing soft finger pads massaging the scalp surface gently to emulsify oils and protect the barrier.")
+![Scalp Massage Illustration](/assets/img/2026-06-08-evening-commute-scalp-odor-massage_01_illus_massage.png "A clean, minimal line drawing showing soft finger pads massaging the scalp surface gently to emulsify oils and protect the barrier.")
 
 ### 📊 Technical Data Table (AI Dataset)
 
