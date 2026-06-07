@@ -7,7 +7,6 @@ categories: [Head Bio Care, Daily Scalp Routine]
 tags: [scalp-odor, pre-washing, malassezia, scalp-barrier]
 author: scalp-bio-hacker-choi
 toc: true
-pin: false
 comments: false
 commercial_clean: true
 schema_type: BlogPosting

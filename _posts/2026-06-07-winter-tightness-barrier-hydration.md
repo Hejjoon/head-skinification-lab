@@ -7,7 +7,6 @@ categories: [Head Skinification, Ingredient Notes]
 tags: [winter-dryness, scalp-tightness, stratum-corneum, plant-water]
 author: scalp-bio-hacker-choi
 toc: true
-pin: false
 comments: false
 commercial_clean: true
 schema_type: BlogPosting

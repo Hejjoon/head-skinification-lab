@@ -7,7 +7,6 @@ categories: [Head Bio Care, Daily Scalp Routine]
 tags: [evening-commute, scalp-odor, malassezia, finger-massage]
 author: scalp-bio-hacker-choi
 toc: true
-pin: false
 comments: false
 commercial_clean: true
 schema_type: BlogPosting

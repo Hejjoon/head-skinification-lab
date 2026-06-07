@@ -7,7 +7,6 @@ categories: [Head Bio Care, Scalp Concerns]
 tags: [post-workout, itching, perifollicular-fibrosis, dry-routine]
 author: scalp-bio-hacker-choi
 toc: true
-pin: false
 comments: false
 commercial_clean: true
 schema_type: BlogPosting

@@ -7,7 +7,6 @@ categories: [Head Skinification, Scalp Concerns]
 tags: [rainy-season, dandruff-flakes, TEWL, finger-massage]
 author: scalp-bio-hacker-choi
 toc: true
-pin: false
 comments: false
 commercial_clean: true
 schema_type: BlogPosting

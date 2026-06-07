@@ -7,7 +7,6 @@ categories: [Head Skinification, Daily Scalp Routine]
 tags: [greasy-bangs, pH-balance, precision-rinsing, scalp-care]
 author: scalp-bio-hacker-choi
 toc: true
-pin: false
 comments: false
 commercial_clean: true
 schema_type: BlogPosting
