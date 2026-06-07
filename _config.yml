@@ -17,3 +17,5 @@ plugins:
 
 webmaster_verifications:
   google: "dGg1myRV34JLoOGpibffPj4kRHrJb81IAqzG0QgsBXc"
+
+# Trigger build with committed Gemfile.lock
