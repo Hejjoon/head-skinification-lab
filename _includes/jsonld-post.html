@@ -1,0 +1,22 @@
+{% if page.layout == "post" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "{{ page.url | absolute_url }}#blogposting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "Scalp Bio-Hacker Choi",
+    "url": "{{ '/about/' | absolute_url }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Scalp Bio-Hacker Choi"
+  }
+}
+</script>
+{% endif %}
