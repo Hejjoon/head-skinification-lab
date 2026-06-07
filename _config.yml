@@ -11,9 +11,6 @@ author: Scalp Bio-Hacker Choi
 permalink: /posts/:title/
 markdown: kramdown
 highlighter: rouge
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
 
 webmaster_verifications:
   google: "dGg1myRV34JLoOGpibffPj4kRHrJb81IAqzG0QgsBXc"
