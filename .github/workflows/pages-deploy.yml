@@ -40,57 +40,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: "8818209461:AAHiwR3eSLlSWR5dIbq6iUIdhsqVSl5qyoQ"
           TELEGRAM_CHAT_ID: "513488451"
         run: |
-          python -c '
-          import os, glob, datetime, urllib.request, urllib.parse
-          posts_dir = "_posts"
-          token = os.environ["TELEGRAM_BOT_TOKEN"]
-          chat_id = os.environ["TELEGRAM_CHAT_ID"]
-          now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
-          today_str = now.strftime("%Y-%m-%d")
-          
-          scheduled_list = []
-          for filepath in glob.glob(os.path.join(posts_dir, "*.md")):
-              if "gitkeep" in filepath: continue
-              with open(filepath, "r", encoding="utf-8") as f:
-                  content = f.read()
-              
-              title = ""
-              p_date = ""
-              p_time = ""
-              
-              parts = content.split("---")
-              if len(parts) >= 3:
-                  yaml_lines = parts[1].split("\n")
-                  for line in yaml_lines:
-                      if line.startswith("title:"):
-                          title = line.replace("title:", "").strip().strip("\"").strip("\'")
-                      if line.startswith("date:"):
-                          date_val = line.replace("date:", "").strip()
-                          date_parts = date_val.split()
-                          if len(date_parts) >= 2:
-                              p_date = date_parts[0]
-                              p_time = ":".join(date_parts[1].split(":")[:2])
-                              
-              if p_date and p_date >= today_str:
-                  scheduled_list.append((p_date, p_time, title))
-                  
-          scheduled_list.sort(key=lambda x: (x[0], x[1]))
-          
-          if not scheduled_list:
-              message = "[Head Skinification Lab]\n오늘 이후로 예약된 포스트가 존재하지 않습니다."
-          else:
-              message = "[Head Skinification Lab]\n📅 블로그 예약 발행 현황 알림\n"
-              current_date = ""
-              for p_date, p_time, title in scheduled_list:
-                  if current_date != p_date:
-                      current_date = p_date
-                      message += f"\n■ {current_date}\n"
-                  message += f"- {p_time} : {title}\n"
-                  
-          data = urllib.parse.urlencode({"chat_id": chat_id, "text": message}).encode("utf-8")
-          urllib.request.urlopen(f"https://api.telegram.org/bot{token}/sendMessage", data=data)
-          print("Telegram notification sent successfully.")
-          '
+          python send_telegram_status.py
 
       - name: Setup Pages
         id: pages
