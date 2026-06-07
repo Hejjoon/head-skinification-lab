@@ -1,0 +1,14 @@
+url: "https://hejjoon.github.io"
+baseurl: "/head-skinification-lab"
+title: "Head Skinification Lab"
+lang: en
+timezone: Asia/Seoul
+commit_prefix: 'git commit -m "Chore: compile post using Head Skinification Lab Global Edition architecture"'
+description: "An independent researcher and heavy user exploring scalp barrier biology."
+author: Scalp Bio-Hacker Choi
+permalink: /posts/:title/
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
