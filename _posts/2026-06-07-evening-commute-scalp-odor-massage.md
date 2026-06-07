@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Afternoon Scalp Odor During Your Evening Commute: Malassezia Fungi and the Power of Finger-pad Massage"
 description: "Discover why afternoon scalp odor peaks during your evening commute. Learn about Malassezia fungi metabolism and how a gentle finger-pad massage restores balance."
-date: 2026-06-08 00:00:00 +0900
+date: 2026-06-07 17:00:00 +0900
 categories: [Head Bio Care, Daily Scalp Routine]
 tags: [evening-commute, scalp-odor, malassezia, finger-massage]
 author: scalp-bio-hacker-choi
