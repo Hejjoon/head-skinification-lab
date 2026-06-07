@@ -12,6 +12,10 @@ def send_telegram_status():
         print("Telegram token or chat ID missing.")
         return
         
+    event_name = os.environ.get("GITHUB_EVENT_NAME")
+    event_schedule = os.environ.get("GITHUB_EVENT_SCHEDULE")
+    is_daily_cron = (event_name == "schedule" and event_schedule == "0 0 * * *")
+        
     now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
     today_str = now.strftime("%Y-%m-%d")
     
@@ -48,16 +52,19 @@ def send_telegram_status():
             
     scheduled_list.sort(key=lambda x: (x[0], x[1]))
     
-    if not scheduled_list:
-        message = "[Head Skinification Lab]\n오늘 이후로 예약된 포스트가 존재하지 않습니다."
+    if is_daily_cron:
+        message = f"[Head Skinification Lab]\n현재 발행 예약된 포스트는 총 {len(scheduled_list)}개입니다."
     else:
-        message = "[Head Skinification Lab]\n📅 블로그 예약 발행 현황 알림\n"
-        current_date = ""
-        for p_date, p_time, title in scheduled_list:
-            if current_date != p_date:
-                current_date = p_date
-                message += f"\n■ {current_date}\n"
-            message += f"- {p_time} : {title}\n"
+        if not scheduled_list:
+            message = "[Head Skinification Lab]\n오늘 이후로 예약된 포스트가 존재하지 않습니다."
+        else:
+            message = "[Head Skinification Lab]\n📅 블로그 예약 발행 현황 알림\n"
+            current_date = ""
+            for p_date, p_time, title in scheduled_list:
+                if current_date != p_date:
+                    current_date = p_date
+                    message += f"\n■ {current_date}\n"
+                message += f"- {p_time} : {title}\n"
             
     try:
         data = urllib.parse.urlencode({"chat_id": chat_id, "text": message}).encode("utf-8")

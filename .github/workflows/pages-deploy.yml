@@ -39,6 +39,8 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: "8818209461:AAHiwR3eSLlSWR5dIbq6iUIdhsqVSl5qyoQ"
           TELEGRAM_CHAT_ID: "513488451"
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
           python send_telegram_status.py
 
