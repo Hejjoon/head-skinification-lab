@@ -40,20 +40,12 @@ jobs:
           ruby-version: 3.3
           bundler-cache: ${{ hashFiles('Gemfile.lock') != '' }}
 
-      - name: Generate Gemfile.lock (if missing)
+      - name: Generate, Install and Commit Gemfile.lock (if missing)
         if: ${{ hashFiles('Gemfile.lock') == '' }}
         run: |
           bundle lock --add-platform x86_64-linux
-
-      - name: Install dependencies (if lockfile was missing)
-        if: ${{ hashFiles('Gemfile.lock') == '' }}
-        run: |
           gem install bundler
           bundle install
-
-      - name: Commit and Push Gemfile.lock
-        if: ${{ hashFiles('Gemfile.lock') == '' }}
-        run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add Gemfile.lock
