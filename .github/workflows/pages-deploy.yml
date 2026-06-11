@@ -11,7 +11,7 @@ on:
       - LICENSE
 
   schedule:
-    - cron: '0 15,19,23,3,7 * * *' # Every 4 hours, matching KST 00:00, 04:00, 08:00, 12:00, 16:00 (since UTC = KST - 9h)
+    - cron: '0 15,23,7 * * *' # Every 8 hours, matching KST 00:00, 08:00, 16:00 (since UTC = KST - 9h)
     - cron: '0 0 * * *' # Daily at 09:00 KST (00:00 UTC)
 
   workflow_dispatch:
